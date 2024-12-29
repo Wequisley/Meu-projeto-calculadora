@@ -1,0 +1,153 @@
+/* Aqui importeio uma fonte do google que gostei*/
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+/* Aqui eu centralizei tudo e dexei responsivo*/
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+/* Aqui eu chamo minha font, uma cor branca e coloco bordas de 25% */
+input {
+  border-color: #000000;
+  color: #fff;
+  padding: 17px;
+  outline: none;
+  font-size: 30px;
+  font-family: "Merienda", serif;
+  border-radius: 25%;
+}
+
+/* organização */
+.main {
+  display: inline-block;
+}
+
+/* mudar cor de fundo dos btn 9,8,7,6,5,4,3,2,1,.,0 e C*/
+.maincolor {
+  text-align: left;
+  background-color: black;
+}
+
+/* Ajustar o tamanho dos btn */
+.num {
+  width: 64px;
+  height: 67px;
+}
+
+/* Ajuste de tamanho da caixa do texto, alteração no alinhamento deixando o centralizado e boras*/
+.text {
+  background-color: rgba(46, 206, 14, 0.096);
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1 {
+  width: 30px;
+  height: 32px;
+  border-radius: 50%;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+/*Estilização do btn "+"*/
+.blue {
+  background-color: #0cd0cd;
+}
+
+/*Estilização do btn "-"*/
+.pin {
+  background-color: #cf1596;
+}
+
+/*Estilização do btn "*"*/
+.gre {
+  background-color: #aad800;
+}
+
+/*Estilização do btn "="*/
+.pur {
+  background-color: #8c52ff;
+}
+
+/*Estilização do btn "/"*/
+.ora {
+  background-color: #fcb707;
+}
+
+/* Aqui eu decalrei que quando o mouse passar por cima do text1 a cor de fundo muda para vermelho*/
+.text1:hover {
+  background-color: #d8001d;
+}
+
+.num:hover {
+  background-color: #393b3b67;
+}
+
+footer {
+  background-color: #f0f0f0; /* Cor de fundo cinza claro */
+  padding: 10px; /* Espaçamento interno */
+  text-align: center; /* Alinha o texto ao centro */
+  font-size: px; /* Tamanho da fonte */
+  border-top: 1px solid #ddd; /* Adiciona uma linha superior */
+  position: fixed; /* Mantém o rodapé fixo na parte inferior da tela */
+  bottom: 0; /* Alinha o rodapé à parte inferior */
+  width: 100%; /* Largura total da tela */
+}
+
+header {
+  background: linear-gradient(45deg, rgb(236, 5, 5), rgb(144, 4, 199), rgb(236, 5, 5), rgb(144, 4, 199));
+  position: absolute; /* Fixa o cabeçalho */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0; /* Cor de fundo para o cabeçalho */
+  padding: 10px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o título */
+  z-index: 100; /* Garante que o cabeçalho fique acima de outros elementos */
+}
+
+/*  --  Media Queries para respon*/
+
+.top-left-button {
+  position: absolute; /* Permite posicionar o botão usando top e left */
+  top: 10px; /* Distância do topo */
+  left: 10px; /* Distância da esquerda */
+  padding: 5px 5px; /* Tamanho do botão */
+  background-color: #007bff; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none; /* Remove a borda padrão */
+  border-radius: 5px; /* Deixa as bordas arredondadas */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Cursor de mão ao passar o mouse */
+  z-index: 1000; /* Garante que o botão fique acima dos outros elementos */
+}
+
+.top-left-button:hover {
+  background-color: #0056b3; /* Muda a cor ao passar o mouse */
+}
+
+.h1t{
+  text-align: center;
+ font-size: 150%;
+}
+
+.no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sp1{
+  color: #f7f6ff;
+}
+
